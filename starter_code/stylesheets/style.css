@@ -52,14 +52,18 @@ nav > div{
     font-size: 150%;
     border-radius: 8px;
     }
-    .signgoogle{
-        width: 600px;
-        height: 60px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 150%;
-        background-color: dodgerblue;
-        border-radius: 8px;
-        }
+.signgoogle{
+    display: flex;
+    width: 600px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    }
+.signgoogle > img {
+    background-color: white;
+    }
 ul {
     display: none;
 }
