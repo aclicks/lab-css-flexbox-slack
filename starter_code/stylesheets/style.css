@@ -8,3 +8,46 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+/* Iteração 1 768px */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    background-color: #540B51;
+    padding: 20px;
+    max-width: 640px;
+    min-width: 90vw;
+    justify-content: space-between;
+}
+nav > div{
+    display: flex;
+    height: 35px;
+    }
+.left{
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.right{
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+button {
+    background-color: #540B51;
+    border: none;
+    }
+ul {
+    display: none;
+}
+/* Iteração 2 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Iteração 3 */
+@media all and (min-width: 1025px) and (max-width: 1439px) {
+}
+
+/* Iteração 4 */
+@media all and (min-width: 1440px) {
+}
