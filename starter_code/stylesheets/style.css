@@ -15,7 +15,8 @@ body{
     padding: 0px;
     flex-wrap: wrap;
     background-color: #540B51;
-    align-content: center;
+    justify-content: center;
+    
     }
 nav{
     display: flex;
@@ -23,19 +24,19 @@ nav{
     padding: 5vw;
     justify-content: space-between;
     align-content: center;
-    width: 620px;
-    align-self: center;
-}
+    width: 100vw;
+    min-width: 100px;
+    max-width: 500px;
+    }
 nav > div{
     display: flex;
     height: 5vw;
     }
 .left{
-    align-content: center;
     justify-content: flex-start;
 }
 .right{
-    align-content: center;
+    
     justify-content: flex-end;
 }
 .topo {
@@ -44,7 +45,7 @@ nav > div{
     padding-left: 2vw;
     padding-right: 2vw;
     }
-.sign{
+.sign {
     display: flex;
     width: 75vw;
     height: 10vw;
@@ -54,7 +55,7 @@ nav > div{
     justify-content: center;
     align-items: center;
     }
-.signgoogle{
+.signgoogle {
     display: flex;
     width: 75vw;
     height: 10vw;
@@ -65,8 +66,9 @@ nav > div{
     justify-content: flex-start;
     align-items: center;
     }
-.google{
+.google {
     margin-right: 15vw;
+    padding: 10px;
 }
 .signgoogle > img {
     background-color: white;
@@ -94,6 +96,19 @@ header > div > div {
     align-content: center;
     justify-content: center;
     }
+.hero{
+    width: 130vw;
+    padding-left: 15em;
+}
+.companies{
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .companies img{
+    max-height: 40px;
+    margin-right: 1rem;
+  }
 h1{
     font-size: 400%;
     text-align: center;
